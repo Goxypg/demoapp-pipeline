@@ -33,7 +33,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         echo 'Deploy to Prod'
       }
